@@ -81,14 +81,26 @@ function daysoff(n) {
                 daysFree++;
         }) 
         if (daysFree >= n) {
-            var out = {};
-            Object.keys(sectionMapping).forEach(crsId => {
-                out[timetable[crsId].name] = sectionMapping[crsId]
-            })
-            output.push(out);
+            output.push(sectionMapping);
         }
     })
     return output
 }
 
-console.log(daysoff(2));
+function printMapping(mappings) {
+    mappings.forEach(mapping => {
+        //console.log(currentMapping)
+        for (let course in mapping) {
+            var out = timetable[course].name + ': ' + mapping[course] + ': ';
+            for (let day in timetable[course].timings[mapping[course]]) {
+                if (timetable[course].timings[mapping[course]][day] != null) {
+                    out = out + day + '(' + timetable[course].timings[mapping[course]][day][0] + '-' + timetable[course].timings[mapping[course]][day][1] + '), ';
+                }
+            }
+            console.log(out)
+        }
+        console.log('-----------------------------------------------------------------');
+    })
+}
+
+printMapping(daysoff(2))
