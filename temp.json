@@ -47,7 +47,7 @@
         "Monday": null,
         "Tuesday": [
           11,
-          2
+          14
         ],
         "Wednesday": null,
         "Thursday": null,
@@ -65,7 +65,7 @@
         "Tuesday": null,
         "Wednesday": [
           11,
-          2
+          14
         ],
         "Thursday": null,
         "Friday": null
@@ -82,7 +82,7 @@
         "Tuesday": null,
         "Wednesday": [
           11,
-          2
+          14
         ],
         "Thursday": null,
         "Friday": null
@@ -97,7 +97,7 @@
       "D1": {
         "Monday": [
           11,
-          2
+          14
         ],
         "Tuesday": null,
         "Wednesday": null,
@@ -156,7 +156,7 @@
         "Wednesday": null,
         "Thursday": [
           11,
-          2
+          14
         ],
         "Friday": null
       },
@@ -170,7 +170,7 @@
       "B1": {
         "Monday": [
           11,
-          2
+          14
         ],
         "Tuesday": null,
         "Wednesday": null,
@@ -190,8 +190,8 @@
         "Wednesday": null,
         "Thursday": null,
         "Friday": [
-          2,
-          5
+          14,
+          17
         ]
       },
       "C2": {
@@ -206,7 +206,7 @@
         "Tuesday": null,
         "Wednesday": [
           11,
-          2
+          14
         ],
         "Thursday": null,
         "Friday": null
@@ -271,12 +271,12 @@
         "Monday": null,
         "Tuesday": [
           12.5,
-          2
+          14
         ],
         "Wednesday": null,
         "Thursday": [
           12,
-          2
+          14
         ],
         "Friday": null
       },
@@ -310,12 +310,12 @@
         "Monday": null,
         "Tuesday": [
           12.5,
-          2
+          14
         ],
         "Wednesday": null,
         "Thursday": [
           12.5,
-          2
+          14
         ],
         "Friday": null
       }
@@ -326,13 +326,13 @@
     "timings": {
       "A": {
         "Monday": [
-          3.5,
-          5
+          15.5,
+          17
         ],
         "Tuesday": null,
         "Wednesday": [
-          3.5,
-          5
+          15.5,
+          17
         ],
         "Thursday": null,
         "Friday": null
@@ -366,13 +366,13 @@
       "D": {
         "Monday": null,
         "Tuesday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Wednesday": null,
         "Thursday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Friday": null
       },
@@ -423,13 +423,13 @@
       "B": {
         "Monday": null,
         "Tuesday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Wednesday": null,
         "Thursday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Friday": null
       },
@@ -449,13 +449,13 @@
       "D": {
         "Monday": null,
         "Tuesday": [
-          3.5,
-          5
+          15.5,
+          17
         ],
         "Wednesday": null,
         "Thursday": [
-          3.5,
-          5
+          15.5,
+          17
         ],
         "Friday": null
       },
@@ -537,26 +537,26 @@
     "timings": {
       "A": {
         "Monday": [
-          5,
-          6.5
+          17,
+          18.5
         ],
         "Tuesday": null,
         "Wednesday": [
-          5,
-          6.5
+          17,
+          18.5
         ],
         "Thursday": null,
         "Friday": null
       },
       "B": {
         "Monday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Tuesday": null,
         "Wednesday": [
-          2,
-          3.5
+          14,
+          15.5
         ],
         "Thursday": null,
         "Friday": null
@@ -564,8 +564,8 @@
       "C": {
         "Monday": null,
         "Tuesday": [
-          5,
-          6.5
+          17,
+          18.5
         ],
         "Wednesday": null,
         "Thursday": [
@@ -593,7 +593,7 @@
         "Friday": null
       },
       "B": {
-        "Monday":[
+        "Monday": [
           17,
           18.5
         ],
@@ -613,21 +613,27 @@
       "A": {
         "Monday": null,
         "Tuesday": [
-          3.5,
-          5
+          15.5,
+          17
         ],
         "Wednesday": null,
-        "Thursday":  [
-          3.5,
-          5
+        "Thursday": [
+          15.5,
+          17
         ],
         "Friday": null
       },
       "B": {
         "Monday": null,
-        "Tuesday": [5, 6.5],
-        "Wednesday":null,
-        "Thursday": [5, 6.5],
+        "Tuesday": [
+          17,
+          18.5
+        ],
+        "Wednesday": null,
+        "Thursday": [
+          17,
+          18.5
+        ],
         "Friday": null
       }
     }

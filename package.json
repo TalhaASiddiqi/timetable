@@ -10,6 +10,7 @@
   "author": "Talha Siddiqi",
   "license": "MIT",
   "dependencies": {
-    "fs-jetpack": "^2.2.2"
+    "fs-jetpack": "^2.2.2",
+    "stats-lite": "^2.2.0"
   }
 }

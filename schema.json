@@ -1,0 +1,370 @@
+{
+    "courses": {
+        "EL229": {
+            "name": "Course Name",
+            "timings" : {
+                "A1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "A2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C1": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C2": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F1": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F2": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "CL218": {
+            "name": "Course Name",
+            "timings" : {
+                "A1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "A2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C1": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C2": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E1" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E2" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F1": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F2": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "CS218": {
+            "name": "Course Name",
+            "timings" : {
+                "A" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "CS211": {
+            "name": "Course Name",
+            "timings" : {
+                "A" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "MT104": {
+            "name": "Course Name",
+            "timings" : {
+                "A" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        },
+        "EE229": {
+            "name": "Course Name",
+            "timings" : {
+                "A" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "B" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "C": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "D" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "E" : [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "F": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            }
+        }
+    }
+}
