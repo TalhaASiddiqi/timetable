@@ -1,639 +1,324 @@
 {
-  "temp": {
-    "A": {
-      "Monday": [
-        11,
-        12.5
-      ],
-      "Tuesday": null,
-      "Wednesday": [
-        11,
-        12.5
-      ],
-      "Thursday": null,
-      "Friday": null
-    },
-    "B": {
-      "Monday": [
-        9.5,
-        11
-      ],
-      "Tuesday": null,
-      "Wednesday": [
-        9.5,
-        11
-      ],
-      "Thursday": null,
-      "Friday": null
-    },
-    "F": {
-      "Monday": null,
-      "Tuesday": [
-        9.5,
-        11
-      ],
-      "Wednesday": null,
-      "Thursday": [
-        9.5,
-        11
-      ],
-      "Friday": null
-    }
-  },
-  "EL229": {
-    "name": "Comp. Organization and Assembly Lang Lab",
+  "CS301": {
+    "name": "Theory of Automata",
     "timings": {
-      "A1": {
+      "A": {
         "Monday": null,
-        "Tuesday": [
-          11,
-          14
-        ],
-        "Wednesday": null,
+        "Tuesday": [9.5, 11],
+        "Wednedsday": null,
+        "Thursday": [9.5, 11],
+        "Friday": null
+      },
+      "B": {
+        "Monday": null,
+        "Tuesday": [8, 9.5],
+        "Wednedsday": null,
+        "Thursday": [8, 9.5],
+        "Friday": null
+      },
+      "C": {
+        "Monday": [12.5, 14],
+        "Tuesday": null,
+        "Wednedsday": [12.5, 14],
         "Thursday": null,
         "Friday": null
       },
-      "A2": {
-        "Monday": null,
+      "D": {
+        "Monday": [11, 12.5],
         "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": [11, 12.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "E": {
+        "Monday": [8, 9.5],
+        "Tuesday": null,
+        "Wednedsday": [8, 9.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "F": {
+        "Monday": [9.5, 11],
+        "Tuesday": null,
+        "Wednedsday": [9.5, 11],
+        "Thursday": null,
+        "Friday": null
+      }
+    }
+  },
+  "CS327": {
+    "name": "Computer Networks",
+    "timings": {
+      "A": {
+        "Monday": null,
+        "Tuesday": [8, 9.5],
+        "Wednedsday": null,
+        "Thursday": [8, 9.5],
+        "Friday": null
+      },
+      "B": {
+        "Monday": null,
+        "Tuesday": [9.5, 11],
+        "Wednedsday": null,
+        "Thursday": [9.5, 11],
+        "Friday": null
+      },
+      "C": {
+        "Monday": null,
+        "Tuesday": [9.5, 11],
+        "Wednedsday": null,
+        "Thursday": [9.5, 11],
+        "Friday": null
+      },
+      "D": {
+        "Monday": null,
+        "Tuesday": [8, 9.5],
+        "Wednedsday": null,
+        "Thursday": [8, 9.5],
+        "Friday": null
+      },
+      "E": {
+        "Monday": null,
+        "Tuesday": [8, 9.5],
+        "Wednedsday": null,
+        "Thursday": [8, 9.5],
+        "Friday": null
+      },
+      "F": {
+        "Monday": null,
+        "Tuesday": [9.5, 11],
+        "Wednedsday": null,
+        "Thursday": [9.5, 11],
+        "Friday": null
+      }
+    }
+  },
+  "CS324": {
+    "name": "Software Design and Analysis",
+    "timings": {
+      "A": {
+        "Monday": [14, 15.5],
+        "Tuesday": null,
+        "Wednedsday": [14, 15.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "B": {
+        "Monday": [11, 12.5],
+        "Tuesday": null,
+        "Wednedsday": [11, 12.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "C": {
+        "Monday": [11, 12.5],
+        "Tuesday": null,
+        "Wednedsday": [11, 12.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "D": {
+        "Monday": [14, 15.5],
+        "Tuesday": null,
+        "Wednedsday": [14, 15.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "E": {
+        "Monday": [9.5, 11],
+        "Tuesday": null,
+        "Wednedsday": [9.5, 11],
+        "Thursday": null,
+        "Friday": null
+      },
+      "F": {
+        "Monday": [8, 9.5],
+        "Tuesday": null,
+        "Wednedsday": [8, 9.5],
+        "Thursday": null,
+        "Friday": null
+      }
+    }
+  },
+  "SS153": {
+    "name": "Technical and Business Writing",
+    "timings": {
+      "A": {
+        "Monday": [15.5, 17],
+        "Tuesday": null,
+        "Wednedsday": [15.5, 17],
+        "Thursday": null,
+        "Friday": null
+      },
+      "B": {
+        "Monday": [14, 15.5],
+        "Tuesday": null,
+        "Wednedsday": [14, 15.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "C": {
+        "Monday": null,
+        "Tuesday": [8, 9.5],
+        "Wednedsday": null,
+        "Thursday": [8, 9.5],
+        "Friday": null
+      },
+      "D": {
+        "Monday": null,
+        "Tuesday": [14, 15.5],
+        "Wednedsday": null,
+        "Thursday": [14, 15.5],
+        "Friday": null
+      },
+      "E": {
+        "Monday": null,
+        "Tuesday": [15.5, 17],
+        "Wednedsday": null,
+        "Thursday": [15.5, 17],
+        "Friday": null
+      },
+      "F": {
+        "Monday": [15.5, 17],
+        "Tuesday": null,
+        "Wednedsday": [15.5, 17],
+        "Thursday": null,
+        "Friday": null
+      }
+    }
+  },
+  "CS325": {
+    "name": "Numerical Computing",
+    "timings": {
+      "A": {
+        "Monday": [12.5, 14],
+        "Tuesday": null,
+        "Wednedsday": [12.5, 14],
+        "Thursday": null,
+        "Friday": null
+      },
+      "B": {
+        "Monday": [15.5, 17],
+        "Tuesday": null,
+        "Wednedsday": [15.5, 17],
+        "Thursday": null,
+        "Friday": null
+      },
+      "C": {
+        "Monday": [14, 15.5],
+        "Tuesday": null,
+        "Wednedsday": [14, 15.5],
+        "Thursday": null,
+        "Friday": null
+      },
+      "D": {
+        "Monday": null,
+        "Tuesday": [15.5, 17],
+        "Wednedsday": null,
+        "Thursday": [15.5, 17],
+        "Friday": null
+      },
+      "E": {
+        "Monday": null,
+        "Tuesday": [12.5, 14],
+        "Wednedsday": null,
+        "Thursday": [12.5, 14],
+        "Friday": null
+      },
+      "F": {
+        "Monday": null,
+        "Tuesday": [14, 15.5],
+        "Wednedsday": null,
+        "Thursday": [14, 15.5],
+        "Friday": null
+      }
+    }
+  },
+  "CL327": {
+    "name": "Computer Networks Lab",
+    "timings": {
+      "A1": {
+        "Monday": [8, 11],
+        "Tuesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "B1": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": [
-          11,
-          14
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "B2": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
+        "Wednedsday": null,
+        "Thursday": [11, 14],
         "Friday": null
       },
       "C1": {
         "Monday": null,
-        "Tuesday": null,
-        "Wednesday": [
-          11,
-          14
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "C2": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
+        "Tuesday": [14, 17],
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "D1": {
-        "Monday": [
-          11,
-          14
-        ],
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      },
-      "D2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": [8, 11],
         "Thursday": null,
         "Friday": null
       },
       "E1": {
-        "Monday": null,
+        "Monday": [14, 17],
         "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": [
-          8,
-          11
-        ],
-        "Friday": null
-      },
-      "E2": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "F1": {
-        "Monday": [
-          8,
-          11
-        ],
+        "Monday": [11, 14],
         "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
-        "Friday": null
-      },
-      "F2": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      }
-    }
-  },
-  "CL218": {
-    "name": "Data Structures - Lab",
-    "timings": {
-      "A1": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": [
-          11,
-          14
-        ],
         "Friday": null
       },
       "A2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      },
-      "B1": {
-        "Monday": [
-          11,
-          14
-        ],
-        "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "B2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
-      },
-      "C1": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": [
-          14,
-          17
-        ]
       },
       "C2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      },
-      "D1": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": [
-          11,
-          14
-        ],
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "D2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      },
-      "E1": {
-        "Monday": null,
-        "Tuesday": [
-          8,
-          11
-        ],
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "E2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": null
-      },
-      "F1": {
-        "Monday": null,
-        "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
         "Friday": null
       },
       "F2": {
         "Monday": null,
         "Tuesday": null,
-        "Wednesday": null,
+        "Wednedsday": null,
         "Thursday": null,
-        "Friday": null
-      }
-    }
-  },
-  "CS218": {
-    "name": "Data Structures",
-    "timings": {
-      "A": {
-        "Monday": null,
-        "Tuesday": [
-          9.5,
-          11
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          9.5,
-          11
-        ],
-        "Friday": null
-      },
-      "B": {
-        "Monday": null,
-        "Tuesday": [
-          12.5,
-          14
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          12,
-          14
-        ],
-        "Friday": null
-      },
-      "C": {
-        "Monday": null,
-        "Tuesday": [
-          11,
-          12.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          11,
-          12.5
-        ],
-        "Friday": null
-      },
-      "D": {
-        "Monday": null,
-        "Tuesday": [
-          11,
-          12.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          11,
-          12.5
-        ],
-        "Friday": null
-      },
-      "E": {
-        "Monday": null,
-        "Tuesday": [
-          12.5,
-          14
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          12.5,
-          14
-        ],
-        "Friday": null
-      }
-    }
-  },
-  "CS211": {
-    "name": "Discrete Structures",
-    "timings": {
-      "A": {
-        "Monday": [
-          15.5,
-          17
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          15.5,
-          17
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "B": {
-        "Monday": [
-          8,
-          9.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          8,
-          9.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "C": {
-        "Monday": [
-          9.5,
-          11
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          9.5,
-          11
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "D": {
-        "Monday": null,
-        "Tuesday": [
-          14,
-          15.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          14,
-          15.5
-        ],
-        "Friday": null
-      },
-      "E": {
-        "Monday": [
-          8,
-          9.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          8,
-          9.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "F": {
-        "Monday": null,
-        "Tuesday": [
-          8,
-          9.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          8,
-          9.5
-        ],
-        "Friday": null
-      }
-    }
-  },
-  "MT104": {
-    "name": "Linear Algebra",
-    "timings": {
-      "A": {
-        "Monday": [
-          9.5,
-          11
-        ],
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": [
-          9.5,
-          11
-        ]
-      },
-      "B": {
-        "Monday": null,
-        "Tuesday": [
-          14,
-          15.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          14,
-          15.5
-        ],
-        "Friday": null
-      },
-      "C": {
-        "Monday": [
-          11,
-          12.5
-        ],
-        "Tuesday": null,
-        "Wednesday": null,
-        "Thursday": null,
-        "Friday": [
-          11,
-          12.5
-        ]
-      },
-      "D": {
-        "Monday": null,
-        "Tuesday": [
-          15.5,
-          17
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          15.5,
-          17
-        ],
-        "Friday": null
-      },
-      "E": {
-        "Monday": null,
-        "Tuesday": [
-          11,
-          12.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          11,
-          12.5
-        ],
-        "Friday": null
-      },
-      "F": {
-        "Monday": [
-          11,
-          12.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          11,
-          12.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      }
-    }
-  },
-  "EE229": {
-    "name": "Comp. Organization and Assembly Lang",
-    "timings": {
-      
-      "C": {
-        "Monday": null,
-        "Tuesday": [
-          8,
-          9.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          8,
-          9.5
-        ],
-        "Friday": null
-      },
-      "D": {
-        "Monday": [
-          8,
-          9.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          8,
-          9.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "E": {
-        "Monday": [
-          9.5,
-          11
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          9.5,
-          11
-        ],
-        "Thursday": null,
-        "Friday": null
-      }
-    }
-  },
-  "MG414": {
-    "name": "Entrepreneurship",
-    "timings": {
-      "A": {
-        "Monday": [
-          17,
-          18.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          17,
-          18.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "B": {
-        "Monday": [
-          14,
-          15.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          14,
-          15.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "C": {
-        "Monday": null,
-        "Tuesday": [
-          17,
-          18.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          8,
-          9.5
-        ],
-        "Friday": null
-      }
-    }
-  },
-  "MG220": {
-    "name": "Marketing Management",
-    "timings": {
-      "A": {
-        "Monday": [
-          14,
-          15.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          14,
-          15.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      },
-      "B": {
-        "Monday": [
-          17,
-          18.5
-        ],
-        "Tuesday": null,
-        "Wednesday": [
-          17,
-          18.5
-        ],
-        "Thursday": null,
-        "Friday": null
-      }
-    }
-  },
-  "MG103": {
-    "name": "Finance and Accounting",
-    "timings": {
-      "A": {
-        "Monday": null,
-        "Tuesday": [
-          15.5,
-          17
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          15.5,
-          17
-        ],
-        "Friday": null
-      },
-      "B": {
-        "Monday": null,
-        "Tuesday": [
-          17,
-          18.5
-        ],
-        "Wednesday": null,
-        "Thursday": [
-          17,
-          18.5
-        ],
         "Friday": null
       }
     }
