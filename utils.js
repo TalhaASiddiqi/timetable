@@ -94,11 +94,11 @@ function printMapping(mappings) {
             var time = timeForDay(mapping, day);
             if (time[0] != null) {
                 out = `${out}${day}: (${time[0]}-${time[1]}) ${
-                    checkMappingClashForDay(mapping, day) ? "(clashes)" : ""
+                    checkMappingClashForDay(mapping, day) ? "(CLASHES)" : ""
                     }, `;
             }
         });
-        out = out + avgTimePerDay(mapping) + " " + stdDevTimePerDay(mapping);
+        out = `${out} Avg Time/Day: ${avgTimePerDay(mapping)}, Stdev Time/Day: ${stdDevTimePerDay(mapping)}`;
         console.log(out);
         console.log(
             "-----------------------------------------------------------------"
