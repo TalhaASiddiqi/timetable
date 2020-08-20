@@ -1,4 +1,4 @@
-const { getAllPossibleSections } = require('./timetable')
+const { setSelectedIds } = require('./selectdIds')
 const { singleSection, laidback, daysoff } = require('./selectionAlgos')
 
 
@@ -6,7 +6,7 @@ const selectedIds = ["CS301", "CS327", "CS324", "CS325", "SS153", "CL327"];
 
 
 //THIS FUNCTION MUST BE CALLED OR BAD THINGS WILL HAPPEN 
-getAllPossibleSections(selectedIds);
+setSelectedIds(selectedIds)
 
 
 

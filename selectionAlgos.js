@@ -1,6 +1,7 @@
 const { getAllPossibleSections } = require('./timetable')
 const { printMapping, dayOff, avgTimePerDay, stdDevTimePerDay } = require('./utils')
-const days = require('./days')
+const days = require('./days');
+const { getSelectedIds } = require('./selectdIds');
 
 function daysoff(n, overrides = {}) {
     var output = [];
@@ -40,11 +41,13 @@ function laidback(overrides = {}) {
 
 
 function singleSection(section, overrides = {}) {
-    printMapping(getAllPossibleSections().filter(mapping =>
-        Object.entries(mapping).every(
-            ([course, courseSection]) => overrides[course] && overrides[course] == courseSection || courseSection[0] == section
-        )
-    ));
+    printMapping([{
+        ...getSelectedIds().reduce((mapping, course) =>
+            ({ ...mapping, [course]: course.indexOf('L') == 1 ? section + "1" : section }),
+            {}
+        ),
+        ...overrides
+    }])
 }
 
 module.exports = {

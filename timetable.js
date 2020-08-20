@@ -1,5 +1,6 @@
 const jetpack = require("fs-jetpack");
 const days = require('./days')
+const { getSelectedIds } = require('./selectdIds')
 
 var out = []; // [{"MG101": "A", "CS203": "B"}, {"MG101", "D", "CS203": "F"}]
 
@@ -11,12 +12,13 @@ function readTimetable() {
 	return timetable;
 }
 
-
-function getAllPossibleSections(selectedIds) {
+function getAllPossibleSections() {
 	if (!timetable)
 		readTimetable();
 
+
 	if (out.length == 0) {
+		const selectedIds = getSelectedIds();
 		const sectionMappingTemplate = selectedIds.reduce(
 			(obj, section) =>
 				Object.assign(obj, {
