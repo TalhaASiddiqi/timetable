@@ -32,6 +32,44 @@ function timeForDay(sectionMapping, day) {
         : [times[0][0], times[times.length - 1][1]];
 }
 
+function getFreeTimeDay(sectionMapping, day) {
+    let times = daySlots(sectionMapping, day);
+
+    return times.length == 0
+        ? -1
+        : times.reduce((freeTime, [start, end], i, arr) => i == arr.length - 1 ? freeTime : freeTime - end + arr[i + 1][0], 0)
+}
+
+function getAvgFreeTime(sectionMapping) {
+    return stats.mean(
+        days
+            .map(day => ([day, daySlots(sectionMapping, day)]))
+            .filter(([, slots]) => slots.length > 0)
+            .map(([day, slots]) => slots.length == 1 ? 1.5 : getFreeTimeDay(sectionMapping, day))
+    )
+}
+
+function getNumberOfSameSections(mapping) {
+    let numbers = {};
+
+    Object.entries(mapping).forEach(([, section]) => {
+        if (numbers[section] != undefined)
+            numbers[section] = numbers[section] + 1
+        else
+            numbers[section] = 1
+    })
+
+    return Math.max(...Object.entries(numbers).map(([, n]) => n))
+
+}
+
+function getAvgStartingTime(mapping) {
+    return stats.mean(
+        days.filter(day => timeForDay(mapping, day)[0]).map(day => timeForDay(mapping, day)[0])
+    )
+}
+
+
 function checkMappingClashForDay(mapping, day) {
     let times = daySlots(mapping, day);
 
@@ -90,15 +128,15 @@ function printMapping(mappings) {
             console.log(out);
         }
         var out = "";
+        console.log('')
         days.forEach((day) => {
-            var time = timeForDay(mapping, day);
-            if (time[0] != null) {
-                out = `${out}${day}: (${time[0]}-${time[1]}) ${
-                    checkMappingClashForDay(mapping, day) ? "(CLASHES)" : ""
-                    }, `;
+            let times = daySlots(mapping, day);
+            if (times.length > 0) {
+                let timeForDay = [times[0][0], times[times.length - 1][1]]
+                console.log(`${day}: ${times.reduce((str, [start, end]) => str + `(${start}-${end}), `, '')} Total: (${timeForDay[0]}-${timeForDay[1]})`)
             }
         });
-        out = `${out} Avg Time/Day: ${avgTimePerDay(mapping)}, Stdev Time/Day: ${stdDevTimePerDay(mapping)}`;
+        out = `${out} Avg Time/Day: ${avgTimePerDay(mapping)}, Stdev Time/Day: ${stdDevTimePerDay(mapping)}, Free time: ${getAvgFreeTime(mapping)}`;
         console.log(out);
         console.log(
             "-----------------------------------------------------------------"
@@ -113,5 +151,8 @@ module.exports = {
     timeForDay,
     checkMappingClashForDay,
     daySlots,
-    dayOff
+    dayOff,
+    getAvgFreeTime,
+    getNumberOfSameSections,
+    getAvgStartingTime
 }

@@ -1,5 +1,5 @@
 const { getAllPossibleSections } = require('./timetable')
-const { printMapping, dayOff, avgTimePerDay, stdDevTimePerDay } = require('./utils')
+const { printMapping, dayOff, avgTimePerDay, stdDevTimePerDay, getAvgFreeTime, getNumberOfSameSections } = require('./utils')
 const days = require('./days');
 const { getSelectedIds } = require('./selectdIds');
 
@@ -51,8 +51,29 @@ function singleSection(section, overrides = {}) {
     }])
 }
 
+function idealFreeTime(overrides = {}) {
+    printMapping(
+        getAllPossibleSections()
+            .filter(mapping =>
+                Object
+                    .entries(mapping)
+                    .every(([course, section]) => !overrides[course] || overrides[course] == section)
+            )
+            .filter(val => getAvgFreeTime(val) > 0.5 && getAvgFreeTime(val) < 2 && getNumberOfSameSections(val) >= 4)
+            .sort((a, b) => {
+                let diff = getNumberOfSameSections(b) - getNumberOfSameSections(a);
+                if (diff == 0)
+                    return (getAvgFreeTime(a) - 1.5) - (getAvgFreeTime(b) - 1.5);
+                else
+                    return diff
+            })
+            .slice(0, 30)
+    )
+}
+
 module.exports = {
     singleSection,
     laidback,
-    daysoff
+    daysoff,
+    idealFreeTime,
 }
