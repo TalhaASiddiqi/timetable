@@ -26,16 +26,17 @@ function daysoff(n, overrides = {}) {
 
 
 function laidback(overrides = {}) {
-    var fridaysOff = getAllPossibleSections()
+    printMapping(getAllPossibleSections()
         .filter(mapping =>
             Object
                 .entries(mapping)
                 .every(([course, section]) => !overrides[course] || overrides[course] == section)
+            &&
+            avgTimePerDay(mapping) < 6
         )
-        .filter((val) => avgTimePerDay(val) < 6)
-        .sort((first, second) => stdDevTimePerDay(first) - stdDevTimePerDay(second));
-    var short = fridaysOff.filter((val, ind) => ind < 20);
-    printMapping(short);
+        .sort((first, second) => stdDevTimePerDay(first) - stdDevTimePerDay(second))
+        .slice(0, 20)
+    )
 }
 
 
